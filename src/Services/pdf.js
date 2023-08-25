@@ -113,7 +113,7 @@ function generateInvoiceTable(doc, invoice) {
     "",
     "Subtotal",
     "",
-    formatCurrency(invoice.subtotal*100)
+    formatCurrency(invoice.subTotal*100)
   );
 
   const paidToDatePosition = subtotalPosition + 20;
