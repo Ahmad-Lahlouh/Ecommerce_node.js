@@ -22,7 +22,7 @@ function generateHeader(doc) {
     .fontSize(10)
     .text("ACME Inc.", 200, 50, { align: "right" })
         
-    .text("Jenin", 200, 65, { align: "right" })
+    .text("Araba", 200, 65, { align: "right" })
     .text("Palestine", 200, 80, { align: "right" })
     .moveDown();
 }
